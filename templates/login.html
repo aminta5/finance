@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="{{ url_for('login') }}" method="post">
+
+        <div class ="container">
+            <h2>Log In</h2>
+            <fieldset>
+
+                <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text"/>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" name="password" placeholder="Password" type="password"/>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-default active" type="submit">Log In</button>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+{% endblock %}

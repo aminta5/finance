@@ -1,0 +1,142 @@
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* colors for navbar 537fbe */
+.navbar-default .navbar-brand .blue
+{
+    color: #37637F;
+}
+.navbar-default .navbar-brand .red
+{
+    color: #20A340;
+}
+.navbar-default .navbar-brand .yellow
+{
+    color: #37637F;
+}
+.navbar-default .navbar-brand .green
+{
+    color: #37637F;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: 25%;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main td
+{
+    /* left-align tables' cells */
+    text-align: left;
+
+}
+
+th
+{
+    background-color: #ffffff
+}
+
+tfoot tr td
+{
+    font-weight: bold;
+}
+.italic
+{
+    font-weight:bold;
+    background-color:#aaffaa;
+}
+.logo {
+    font-size:45px;
+    font-family: 'Monoton', cursive;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+.finance{
+    font-size:25px;
+    font-family:'Fjalla One';
+
+
+}
+
+body {
+    font-family:"Lato";
+
+}
+.navbar-default {
+    background-color:#B6CCDB;
+}
+.table
+{
+    background-color:rgba(19,9,133,0.1);
+}
+
+ .navbar-default .navbar-nav > li > a {
+    color:#243752;
+    font-weight: 700;
+}
+.fa {
+    font-size:50%;
+    color:#F5C731;
+}
+.navbar {
+    min-height:70px;
+}
+.navbar-nav {
+    padding-top:17px;
+}
+body {
+    padding-top:90px;
+    background-color: RGBA(83,127,190,0.3);
+}
+fieldset {
+    margin-top:0px;
+    background-color:#0A334C;
+    width:auto;
+    height:auto;
+    border-radius:10px;
+
+}
+.form-group {
+    margin-top:30px;
+}
+.form-control {
+    height:45px;
+}
+.table > thead > tr > th {
+    background-color:RGBA(83,127,190,0.3);
+}
+.navbar-right {
+    margin-right:20px;
+}
+p {
+    margin-top:60px;
+    margin-bottom:40px;
+    margin-right:0px;
+    font-size:25px;
+    font-weight:700;
+    color:#37637F;
+}
+h2 {
+    margin-right:100px;
+    font-size:40px;
+    font-weight:700;
+    color:#37637F;
+}
+
+
